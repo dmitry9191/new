@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
 body {
-  font-family: 'EB Garamond', serif; 
+  font-family: 'EB Garamond', serif;
 }
 
 header {
   border-style: dotted;
+  padding: 5px;
+  margin: 5px;
 }
 
 main {
@@ -14,20 +16,30 @@ main {
 
 footer {
   border-style: dotted;
+  padding: 5px;
+  margin: 5px;
 }
 
 header {
   border-style: dashed;
+  padding: 5px;
+  margin: 5px;
 }
 
 section {
   border-style: dashed;
+  padding: 5px;
+  margin: 5px;
 }
 
 figure {
   border-style: dashed;
+  padding:5px;
+  margin: 5px;
 }
 
 article {
   border-style: dashed;
+  padding: 5px;
+  margin: 5px;
 }
