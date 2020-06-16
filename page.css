@@ -2,37 +2,41 @@
 
 body {
   font-family: 'EB Garamond', serif;
+  background-color: #353e7a;
+  margin: 0;
 }
 
 header {
-  border-style: dotted;
-  padding: 5px;
-  margin: 5px;
+  background-color: white;
+  margin: 0;
 }
 
 
 
 main {
   border-style: dotted;
+  background-color: white;
+  min-height: 3500px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(content/бражка.png);
+  background-repeat: no-repeat;
 }
 
 footer {
-  border-style: dotted;
   padding: 5px;
-  margin: 5px;
+  background-color: white;
 }
 
 header {
-  border-style: dashed;
   padding: 5px;
-  margin: 5px;
 }
 
 section {
   border-style: dashed;
   padding: 5px;
   margin: 5px;
-  margin-right: 200px;
 }
 
 aside {
@@ -42,16 +46,22 @@ aside {
   height: 200px;
   padding: 5px;
   background-color: #f0f0f0;
+  background-attachment: fixed;
+  position: absolute;
+  top: 400px;
+  right: 0px;
 }
 
 figure {
   border-style: dashed;
   padding:5px;
   margin: 5px;
+
 }
 
 article {
   border-style: dashed;
   padding: 5px;
   margin: 5px;
+  box-sizing: border-box;
 }
