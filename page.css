@@ -54,7 +54,7 @@ main {
   margin-right: auto;
   margin-top: 0;
   background-image: url(content/бражка.png);
-  background-size: auto;
+  background-size: 80% auto;
   background-position: center;
   background-repeat: no-repeat;
 }
