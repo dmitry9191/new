@@ -2,31 +2,91 @@
 
 body {
   font-family: 'EB Garamond', serif;
-  background-color: #353e7a;
+  background-image: linear-gradient(to bottom, #dff1f9, #84d3f3, #dff1f9);
   margin: 0;
 }
+
 
 header {
   background-color: white;
+  background-image: url(content/background24.png);
+  background-repeat: repeat;
+  opacity: 0.9;
   margin: 0;
+  min-height: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.menu-item {
+  height: 100px;
+  color: #5086b4;
+  flex-basis: 100px;
+  flex-grow: 2;
+  margin-right: 20px;
+  font-size: 50px;
+  padding-top: 15px;
+}
+
+.menu-item:hover {
+  box-shadow: 2px 0px 1px -1px #5086b4,
+              -2px 0px 1px -1px #5086b4;
+}
+
+.item {
+  background: none;
+  color: #5086b4;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  box-shadow: none;
+  flex-grow: 1;
 }
 
 
-
 main {
-  border-style: dotted;
-  background-color: white;
+  border: solid 1px #84d3f3;
   min-height: 3500px;
-  width: 1200px;
+  width: auto;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0;
   background-image: url(content/бражка.png);
+  background-size: auto;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
 footer {
+  min-height: 150px;
+  display: flex;
   padding: 5px;
-  background-color: white;
+  background-image: url(content/background24.png);
+  background-repeat: repeat;
+  flex-basis: 500px;
+  justify-content: space-around;
+  align-items: flex-start;
+  font-size: 30px;
+}
+
+
+.block {
+  display: block;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.block ul {
+  font-size: 20px;
+  list-style: none;
+  padding-left: 40px;
+  padding-right: 25px;
+}
+
+.social {
+  display: flex;
 }
 
 header {
@@ -39,18 +99,6 @@ section {
   margin: 5px;
 }
 
-aside {
-  float:right;
-  border-style: double;
-  width: 200px;
-  height: 200px;
-  padding: 5px;
-  background-color: #f0f0f0;
-  background-attachment: fixed;
-  position: absolute;
-  top: 400px;
-  right: 0px;
-}
 
 figure {
   border-style: dashed;
